@@ -5,8 +5,9 @@
 .bttons{
     
     height: 28px;
+    width: 85px;
     margin-left: -10px;
-    padding: 0px;
+    
 
 }
 .textclr{
@@ -29,7 +30,11 @@ div ul li{
 }
 .sepration{
     text-decoration: none;
-    padding: 8px;
+    padding: 1px;
+    margin: 2px;
+}
+.forleft{
+    padding-left: 3%;
 }
 
 nav{
@@ -59,6 +64,8 @@ nav ul li a{
 div nav ul li:hover{
     background-color:rgb(157, 0, 255);
     border-radius:50px;
+  
+
 }
 .imgpad{
     margin-left: 25px;
@@ -151,6 +158,7 @@ p{
     height: 200px;
     float: left;
     padding: 1px;
+    margin-left: 2px;
 }
 .last{
     width: 100%;
@@ -173,4 +181,29 @@ p{
     bottom: 40px;
     right: 50px;
     opacity: 50%;
+}
+/* ........................................................................ */
+.box-size{
+    width: 65%;
+    height: 480px;
+    background-color: white;
+    margin-left: 4%;
+    display: inline-block;
+}
+.man{
+    width: 100%;
+    height: 300px;
+    background-color:white;
+}
+.inner{
+    height: 65px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    line-height: 65px;
+
 }
